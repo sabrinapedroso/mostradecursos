@@ -1,0 +1,105 @@
+body{
+    background-color: #E0E2DB;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0 auto;
+}
+header{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #191716;
+}
+.logo img{
+    width: 30%;
+    padding-top: 52px;
+    padding-left: 30px;
+}
+.navegacao{
+    overflow: hidden;
+    padding-right: 20px;
+}
+.navegacao a{ 
+    float: right;
+    color: rgb(173, 173, 173);
+    text-decoration: none;
+    padding: 10px;
+}
+.navegacao a:hover{ 
+    color: #306B34;
+}
+
+.inicial{
+    color: #E0E2DB;
+}
+.texto1{
+    background-color: #306B34;
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px 20px 10px 20px;
+    margin: 40px 10px 40px 10px;
+    box-shadow: 10px 10px 10px #08101a98;
+    float: center;
+    color: #E0E2DB;
+    display: block;
+}
+.tecinfo{
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.blocos{
+    display: flex;
+}
+.bloco{
+    color: #E0E2DB;
+    padding: 20px;
+    margin: 20px 10px 20px 10px;
+    float: left;
+    background-color: #191716;
+    text-align: center;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 10px 10px 10px #08101a98;
+    display: inline;
+}
+.blocos :hover{
+    background-color: #1b1a19;
+}
+.icones{
+    border-radius: 130px;
+}
+
+.corpodotexto{
+    padding: 0px 50px 10px 50px;
+    display: flex;
+}
+.informacoes{
+    background-color:#d6d8d1;
+    color: #191716;
+    text-align: justify;
+    padding: 10px 50px 10px 50px;
+}
+.sobre{
+    padding: 10px 30px 10px 30px;
+}
+picture{
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer{
+    text-align: center;
+}
+
+@media screen and (max-width: 700px) {
+    .blocos, .tecinfo{
+        width: 100%;
+        flex-direction: column;
+        padding: 0px;
+    }
+    .logo{
+        width: 160%;
+    }
+}
